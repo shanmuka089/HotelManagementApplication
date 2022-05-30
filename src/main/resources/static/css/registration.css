@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+.error {
+	color: red;
+	position: fixed;
+	margin-left: 30px;
+}
+
+#date {
+	width: 170px;
+}
+body{
+	background-image: url("../images/register.png");
+}
+#title{
+	font-family:serif;
+	color: aqua;
+}
+#page{
+	color: rgba(255, 255, 255,1.0);
+}
+header{
+	margin: 0px;
+}
+
+.title {
+	color: rgb(240, 237, 240);
+	font-size: 50px;
+	font-family: Times;
+	margin: 0px;
+}
+nav {
+	font-size: x-large;
+	background-color:navy;
+	color: white;
+	padding:5px;
+	margin: 0px;
+}
+
+.links {
+	text-align: end;
+	margin:0px;
+	font-family: serif;
+}
+a {
+	margin: 20px;
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.links a:hover {
+	background-color: rgba(238, 237, 247,0.7);
+	border-radius: 5px;
+}

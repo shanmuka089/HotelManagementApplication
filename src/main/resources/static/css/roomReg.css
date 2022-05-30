@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+.room{
+	margin-top: 100px;
+}
+h1{
+	font-family: serif;
+}
+.rad{
+	margin-right: 5px;
+}
+.rad2{
+	margin-right: 3px;
+	margin-left: 10px;
+}
+body{
+	background-image: url("../images/adminBack.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: navy;
+}
+.error{
+	position: fixed;
+	color: red;
+	margin-left: 20px;
+}

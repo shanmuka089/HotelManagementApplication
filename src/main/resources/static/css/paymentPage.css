@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+.details{
+	margin-top: 50px;
+}
+h1{
+	font-family: serif;
+}
+.payment{
+	margin: 10px;
+}
+.status{
+	color: orange;
+}
+body{
+	background-image: url("/images/recepReg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	margin: 20px;
+}

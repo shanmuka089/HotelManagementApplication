@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("../images/hotel.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0px;
+}
+#out{
+	margin: 0px;
+}
+header{
+	margin: 0px;
+}
+.title {
+	color: rgb(240, 237, 240);
+	font-size: 50px;
+	font-family: Times;
+	margin: 0px;
+}
+
+nav {
+	font-size: x-large;
+	font-family:serif;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 5px;
+}
+
+.links {
+	width:1500px;
+	text-align: end;
+	margin: 0px;
+}
+
+a {
+	margin: 20px;
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.links a:hover {
+	background-color: rgba(255, 255, 255, 0.505);
+	border-radius: 5px;
+}
+
+.head {
+	margin: 0px;
+}
+
+.head p {
+	margin-top: 10px;
+	text-align: end;
+	margin-bottom: 0px;
+}
+
+.head p a {
+	font-size: x-large;
+	color: blue;
+	border: 2px solid rgb(59, 19, 167);
+	box-shadow: 5px 0px 0px;
+	background-color: aliceblue;
+	border-radius: 5px;
+}
+.head p a:hover {
+	background-color: rgba(255, 255, 255, 0.505);
+	border-radius: 5px;
+}
+footer {
+	margin-top: 23%;
+	text-align: center;
+	color:white;
+}
+.change_content:after{
+    content:'';
+    animation: changetext 10s infinite linear;
+    font-family:serif;
+    text-shadow:0px 3px 2px navy;
+    color:yellow;
+}
+.click{
+	color: navy;
+	font-family: serif;
+	font-size: 20px;
+}
+.title{
+	color: white;
+	font-family: serif;
+	text-shadow: 0px 3px 2px navy;
+	
+	}
+@keyframes changetext{
+     0% {content:"Room bookings.."; }
+    25% {content:"Are you looking for hotel room booking?"; }
+    50% {content:"It was the correct place for you..."; }
+    75% {content:"Get room booking easy."; }
+    100% {content:" 100k+ satisfied customers.. "; }
+   0% {content:"Room bookings.."; }
+}
+#book{
+	border: 2px;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	padding: 3px;
+}

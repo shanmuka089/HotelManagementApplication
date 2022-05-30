@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+.regCard{
+	margin-top: 100px;
+}
+.space{
+	margin-top: 20px;
+}
+h1{
+	font-family: serif;
+}
+body{
+	background-image: url("../images/recepReg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	margin: 20px;
+}
+#inputdate{
+	width:400px;
+}
+.rad1{
+	margin-left: -250px;
+	margin-right: 5px;
+}
+.rad2{
+	margin-left: 30px;
+	margin-right: 5px;
+}
+.bt{
+	margin-right:20px;
+	margin-left: 20px; 
+}
+.error{
+	position: fixed;
+	color: red;
+	margin-top: -30px;
+}

@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+.page{
+	margin-top: 110px;
+}
+h1{
+	font-family: serif;
+}
+.pbtn{
+	margin: 10px;
+}
+.error{
+	color: red;
+	margin-left: 20px;
+	position: fixed;
+}
+body{
+	background-image: url("/images/recepReg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	margin: 20px;
+}

@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+body {
+	background-image: url("../images/hotel2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+div{
+	margin: 0px;
+}
+.login{
+	background-color: rgba(240, 177, 238,0.8);
+	width: 500px;
+	border-radius:20px;
+	margin-left:500px;
+	position: absolute;
+	margin-top: 50px;
+}
+header{
+	margin: 0px;
+}
+
+.title {
+	color: rgb(240, 237, 240);
+	font-size: 50px;
+	font-family: Times;
+	margin: 0px;
+}
+#reg{
+	color: blue;
+	font-size: large;
+}
+
+#reg:hover{
+	background-color: rgba(238, 237, 247,0.7);
+	border-radius: 5px;
+}
+nav {
+	font-size: x-large;
+	background-color: black;
+	color: white;
+	padding:5px;
+	margin: 0px;
+}
+
+.links {
+	width:1500px;
+	text-align: end;
+	margin: 0px;
+}
+
+a {
+	margin: 20px;
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.links a:hover {
+	background-color: rgba(238, 237, 247,0.7);
+	border-radius: 5px;
+}
