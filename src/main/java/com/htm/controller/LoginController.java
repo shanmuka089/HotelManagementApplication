@@ -52,6 +52,7 @@ public class LoginController {
 	
 	@GetMapping("/about")
 	public String help() {
+		System.out.println("About log message added");
 		return "about";
 	}
 	
